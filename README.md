@@ -1,62 +1,82 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=180&section=header&text=Sunghwan%20Hong&fontSize=55&fontAlignY=35&desc=Retrieval-Augmented%20Reasoning%20%7C%20LLM%20Agents&descAlignY=55&animation=twinkling)
+<div align="center">
 
-# Sunghwan Hong
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&height=150&weight=700&size=64&duration=3500&pause=1200&color=3151b9&center=true&vCenter=true&width=750&lines=Welcome!;Sunghwan+Hong)](https://git.io/typing-svg)
 
-![RAG](https://img.shields.io/badge/🔍_Retrieval--Augmented_Generation-6366F1?style=flat-square&logoColor=white)
-![GraphRAG](https://img.shields.io/badge/🕸️_GraphRAG-8B5CF6?style=flat-square&logoColor=white)
-![Agent](https://img.shields.io/badge/🤖_LLM_Agents-3B82F6?style=flat-square&logoColor=white)
 
-> 검색 증강을 통해 LLM의 추론 성능을 높이고, 그 추론이 근거에 기반한 것임을 보증하는 문제에 관심이 있습니다.
+![RAG](https://img.shields.io/badge/RAG-3151b9?style=flat-square)
+![GraphRAG](https://img.shields.io/badge/GraphRAG-3151b9?style=flat-square)
+![Agentic RAG](https://img.shields.io/badge/Agentic_RAG-3151b9?style=flat-square)
+![LLM Agents](https://img.shields.io/badge/LLM_Agents-3151b9?style=flat-square)
+
+[![Email](https://img.shields.io/badge/hklove1212@naver.com-03C75A?style=flat-square&logo=naver&logoColor=white)](mailto:hklove1212@naver.com)
+![Seoul](https://img.shields.io/badge/Seoul,_South_Korea-1F2937?style=flat-square&logo=googlemaps&logoColor=white)
+
+</div>
 
 ---
 
 ## 🎓 Education
 
-**B.S. in Computer Science and Engineering**  
-**Hansung University**, Seoul, South Korea  
-Mar. 2021 - Feb. 2027 (Expected)  
+**Hansung University**, Seoul  
+B.S. in Computer Science and Engineering (Expected Feb. 2027)
+
 **Tracks**: Web Engineering, Mobile Software  
-**GPA**: 4.13 / 4.5 (Major 4.17)
+**GPA**: 4.12 / 4.5 (Major GPA: 4.17)
 
 ---
 
 ## 🔬 Research Experience
 
-### Undergraduate Research Assistant | IRIS Lab
+### IRIS LAB (Interactive Intelligence and Data Systems Lab)
 
-**Interactive Intelligence and Data Systems Laboratory**  
-Hansung University, Seoul, South Korea  
-*Advised by Prof. Mi-Hwa Song* | Dec. 2025 - Present
+Hansung University, Seoul  
+Undergraduate Research Assistant | *Advisor: Prof. Mi-Hwa Song* | Dec. 2025 - Present
 
-**Activities:**
-- 주간 랩 미팅에서 RAG 및 멀티 에이전트 시스템 관련 최신 논문 발표 및 토론
-- 산학협력 프로젝트 참여 — RAG와 MAS를 도메인 문제에 적용
-- 지식그래프 자동 구축 및 GraphRAG 기반 리스크 추론 연구 주도 (제1저자)
+<details>
+<summary><b>Details</b></summary>
 
-### Publications
+<br/>
 
-**A GraphRAG System for Automated Construction of Corporate Relationship Knowledge Graphs and Risk Reasoning**
+- Present and discuss recent RAG and multi-agent systems literature in weekly lab meetings, and contribute to an industry-academia collaboration project applying RAG and MAS to domain problems.
+- Led a first-author research project on automated corporate knowledge-graph construction and GraphRAG-based multi-hop risk reasoning, published and presented as a poster at KCC 2026.
+- Built an ontology-constrained extraction pipeline and a dynamic graph-traversal module for the system, and proposed **Cross-Hop Reachability**, a novel metric capturing multi-hop retrieval integrity that standard RAG metrics overlook.
 
-**First Author** | *Advisor: Prof. Mi-Hwa Song*  
-Korea Computer Congress (KCC) 2026, pp. 1892-1894 | Jun. 2026
-
-- SEC 10-K 공시로부터 기업 관계 지식그래프를 자동 구축하는 온톨로지 기반 파이프라인 설계
-- 명시적 경로 탐색 기반 다중 홉 리스크 추론 — 유효 경로 부재 시 답변 거절로 환각 통제
-- **Cross-Hop Reachability** 제안 — 기존 RAG 지표가 포착하지 못하는 다중 홉 경로 무결성을 정량화
-
-**Short-form Transformation and Interactive Learning Platform for AI-Based University Lectures for Generation Z**
-
-**Co-Author (2nd Author)**  
-Korea Information Processing Society (ACK) 2025, vol. 32, no. 2 | Nov. 2025
+</details>
 
 ---
 
-## 💼 Project Portfolio
+## 📄 Publications
 
-### BizNode — Intelligent Corporate Relation Analysis Workspace
+**"A GraphRAG System for Automated Construction of Corporate Relationship Knowledge Graphs and Risk Reasoning"**
 
-**Team Leader, Data & AI Engineer** | Mar. 2026 - Present  
-*Hanium Dream-Up, Korea Information Industrial Association*
+**Sunghwan Hong**, Mi-Hwa Song\* (First Author)  
+Proceedings of the Korea Computer Congress 2026 (KCC 2026), 2026, pp. 1892-1894.
+
+<details>
+<summary><b>Details</b></summary>
+
+<br/>
+
+- Designed an ontology-driven pipeline that automatically constructs a corporate relationship knowledge graph from SEC 10-K filings.
+- Performed multi-hop risk reasoning by tracing only explicitly connected graph paths, refusing to answer when no valid path exists to control hallucination.
+- Proposed **Cross-Hop Reachability**, a novel metric quantifying multi-hop retrieval integrity that standard RAG metrics fail to capture.
+
+</details>
+
+**"Short-form Transformation and Interactive Learning Platform for AI-Based University Lectures for Generation Z"**
+
+Geonu Kim, **Sung-Hwan Hong**, Seok-Woo Lee, Han-Jun Lee, Da-Won Yang, In-Kwon Kim\*  
+Proceedings of the Korea Information Processing Society (KIPS) Conference (ACK 2025), vol. 32, no. 2
+
+---
+
+## 💼 Projects
+
+### "BizNode" - Intelligent Corporate Relation Analysis Workspace
+
+Hanium Dream-Up, Korea Information Industrial Association, Korea  
+**Role**: Leader / Data & AI Engineer | Mar. 2026 - Present  
+[📂 GitHub Organization](https://github.com/Biz-Node)
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white)
@@ -64,119 +84,199 @@ Korea Information Processing Society (ACK) 2025, vol. 32, no. 2 | Nov. 2025
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 
-- 비정형 데이터로부터 기업 관계와 다중 홉 금융 리스크를 분석하는 GraphRAG 워크스페이스 아키텍처 설계 및 총괄
-- LangGraph 멀티 에이전트가 질의 구조에 따라 Graph / Vector / Relational 저장소로 라우팅
-- 상위 관계 타입은 고정하고 하위 subtype은 데이터로부터 수렴시키는 계층형 온톨로지 설계
-- 명시적 그래프 경로 추적 및 유효 경로 부재 시 답변 거절로 근거 기반 추론 보장
+<details>
+<summary><b>Details</b></summary>
+
+<br/>
+
+- Design and lead the end-to-end architecture of a GraphRAG workspace analyzing corporate relationships and multi-hop financial risk from unstructured data.
+- Architect a LangGraph multi-agent system over a hybrid store (Neo4j, ChromaDB, MySQL), routing queries by the structure each sub-question requires.
+- Engineer an ontology-driven pipeline extracting knowledge triples from DART filings and news, with a layered ontology balancing schema stability against graph sparsity.
+- Enable multi-hop risk reasoning that traces explicit graph paths and refuses to answer when no valid path exists, grounding every insight in verifiable evidence.
+
+</details>
 
 ---
 
-### Findish — Personalized & Group-tailored AI Dining Platform
+### "Findish" - End-to-End Personalized & Group-tailored AI Dining Platform
 
-**AI Agent Engineer** | Jan. 2026 - Jun. 2026  
+Hansung University, Seoul  
+**Role**: AI Agent Engineer | Jan. 2026 - Jun. 2026  
 🥇 **Best Project Award**, 2026 Capstone Design Exhibition  
-[📂 GitHub Repository](https://github.com/SinseonSeolnongtang)
+[📂 GitHub Organization](https://github.com/SinseonSeolnongtang)
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-4A90E2?style=flat-square&logo=protocol&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)
 
-- 오케스트레이터가 사용자 의도를 분류해 ReAct 기반 Discovery / 트랜잭션 Action 서브그래프로 라우팅
-- 예약·주문 등 비가역 작업에 'collect-confirm-execute' HITL 흐름 적용, 대화 턴을 넘어 상태 유지
-- MCP 서버로 외부 도구를 표준 인터페이스에 노출해 에이전트 로직과 백엔드 분리
+<details>
+<summary><b>Details</b></summary>
+
+<br/>
+
+- Built a conversational dining agent on LangGraph with an orchestrator routing intents to a ReAct-based Discovery subgraph and a transactional Action subgraph.
+- Implemented a 'collect-confirm-execute' Human-in-the-Loop flow persisting state across turns, guaranteeing confirmation before any irreversible action.
+- Developed an MCP server exposing external tools through a standard interface, decoupling agent logic from backend systems.
+
+</details>
 
 ---
 
-### LLM-based Autonomous Robot Agent — VLM-driven Warehouse Sorting
+### "LLM-based Autonomous Robot Agent" - VLM-driven Warehouse Sorting Robot
 
-**AI Perception & Agent Engineer** | Jun. 2026 - Jul. 2026  
-🥇 **1st Place**, Singapore AI·SW Industry-Academia Project  
-*Hansung University & Menlo Research, Singapore*
+Hansung University & Menlo Research, Singapore  
+**Role**: AI Perception & Agent Engineer | Jun. 2026 - Jul. 2026  
+🥇 **1st Place Award**, Singapore AI·SW Industry-Academia Project
 
 ![VLM](https://img.shields.io/badge/Vision--Language_Model-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Robotics](https://img.shields.io/badge/Embodied_AI-FF6B35?style=flat-square&logo=ros&logoColor=white)
 
-- Menlo Research의 Asimov 창고 시뮬레이션에서 사전 지도 없이 큐브를 분류하는 embodied 에이전트 개발
-- LLM 상위 의사결정 + 결정적 실행 코드의 하이브리드 구조 설계
-- VLM 표지판 판독과 로봇 자세·거리 추정으로 좌표 산출 — 금지된 ground-truth scene state 대체
-- 360° 연속 스캔 중 비동기 VLM 요청으로 탐색 지연 단축, 고정거리 가정의 한계 진단
+<details>
+<summary><b>Details</b></summary>
+
+<br/>
+
+- Developed an embodied agent sorting cubes in Menlo Research's Asimov warehouse simulation without pre-mapped coordinates, pairing LLM decision-making with deterministic execution code.
+- Engineered the perception pipeline estimating sign coordinates from robot pose, VLM-observed direction, and blob-size distance — replacing the forbidden ground-truth scene state.
+- Cut search latency via asynchronous VLM requests during continuous 360° scans, and diagnosed the fixed-distance assumption as the pipeline's key limitation.
+
+</details>
 
 ---
 
-### All is Well — Adaptive Natural Language Panel Extraction
+### "All is Well" - Adaptive Natural Language Panel Extraction System
 
-**AI Systems & Full-Stack Developer** | Aug. 2025 - Dec. 2025  
+Hansung University & PMI, Seoul  
+**Role**: AI Systems & Full-Stack Developer | Aug. 2025 - Dec. 2025  
 🥈 **Excellence Award**, 2025 Hansung SW-Centered University Festival  
-*Hansung University & PMI*
+[📂 GitHub Organization](https://github.com/fourEdiots)
 
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat-square&logo=databricks&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-- SQL + ChromaDB 하이브리드 검색에 BGE Cross-Encoder 리랭킹 결합, 63만 건 설문 데이터에서 고정밀 패널 추출
-- LangGraph checkpointer와 동기화된 SQLite 상태 관리로 다중 턴 드릴다운 세션 구현
+<details>
+<summary><b>Details</b></summary>
+
+<br/>
+
+- Integrated a hybrid retrieval mechanism (SQL + ChromaDB) with BGE Cross-Encoder reranking to deliver high-precision panel extractions from 630,000+ survey records provided by PMI.
+- Engineered a FastAPI backend with SQLite-based state synchronized to LangGraph's checkpointer, enabling persistent multi-turn drill-down sessions.
+
+</details>
 
 ---
 
-### E-Clips — AI-Powered Short-form Lecture Platform
+### "E-Clips" - AI-Powered Short-form Lecture Platform
 
-**Frontend Developer** | Feb. 2025 - Oct. 2025  
-🥉 **Encouragement Award**, Hanium Dream-Up Contest · 📄 **Paper Accepted**, ACK 2025
+Hanium Dream-Up, Korea Information Industrial Association, Korea  
+**Role**: Frontend Developer | Feb. 2025 - Oct. 2025  
+🥉 **Encouragement Award**, Hanium Dream-Up (ICT Mentoring) Contest · 📄 **Paper Accepted**, ACK 2025  
+[📂 GitHub Organization](https://github.com/2-Clips)
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-- RAG 기반 대학 챗봇 및 AI 퀴즈 시스템의 인터랙티브 프론트엔드 구현
-- 영상 생성·STT/TTS·LLM 백엔드 파이프라인 연동 및 저지연 상태 관리 최적화
+<details>
+<summary><b>Details</b></summary>
+
+<br/>
+
+- Built interactive frontend for a RAG-based university chatbot and AI quiz system supporting multi-turn Q&A.
+- Integrated client-side interfaces with backend AI pipelines (video generation, STT/TTS, LLMs), optimizing state for low-latency interactions.
+
+</details>
 
 ---
 
-## 🏆 Awards & Honors
+## 🏆 Awards
 
 | Date | Award | Competition / Organization |
 | --- | --- | --- |
-| 2026.07 | 🥇 **1st Place** | Singapore AI·SW Industry-Academia Project |
-| 2026.06 | 🥇 **Best Project Award** | 2026 Capstone Design Exhibition |
-| 2025.11 | 🥈 **Excellence Award** | 2025 Hansung SW-Centered University Festival |
-| 2025.11 | 🥉 **Encouragement Award** | Hanium Dream-Up (ICT Mentoring) Contest |
-| 2025.03 | 🎓 **Academic Excellence Scholarship** | Hansung University |
-| 2021.10 | 🥉 **Encouragement Award** | Smart Corona Era Idea Contest |
+| Jul. 2026 | 🥇 **1st Place Award** | Singapore AI·SW Industry-Academia Project |
+| Jun. 2026 | 🥇 **Best Project Award** | 2026 Capstone Design Exhibition, Hansung University |
+| Nov. 2025 | 🥈 **Excellence Award** | 2025 Hansung SW-Centered University Festival |
+| Nov. 2025 | 🥉 **Encouragement Award** | Hanium Dream-Up (ICT Mentoring) Contest |
+| Oct. 2021 | 🥉 **Encouragement Award** | Smart Corona Era Idea Contest, Sejong Cyber University |
 
 ---
 
-## 🎯 Extracurricular Activities
+## 🎖️ Honors
 
-**2026 AI·SW Industry-Academia Overseas Internship** | Jun. 2026 - Jul. 2026  
-*Hansung University & Menlo Research, Singapore*
-- Global AI/SW Fellowship 선발, Menlo Research와 자율 로봇 에이전트 개발
-- AWS · Grab · HMGICS · Autonomous A2Z · QuikBot · PIA Space 현장 방문, NUS·SUTD 세미나 참여
-
-**DC&M** | Aug. 2024 - Present  
-*Official Academic Club of Computer Engineering, Hansung University* — Executive Board Member
-- 기술 스터디 그룹 운영 및 공모전·해커톤 팀 멘토링, 교내 SW 축제·학술 행사 기획
+**Academic Excellence Scholarship** | Mar. 2025  
+Hansung University, Seoul
 
 ---
 
-## 🛠️ Tech Stack
+## 🎯 Other Experiences
 
-**LLM & Agent**  
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-4A90E2?style=flat-square&logo=protocol&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+### 2026 AI·SW Industry-Academia Project Overseas Internship
 
-**Language**  
+Hansung University & Menlo Research, Singapore  
+Global AI/SW Fellowship | Jun. 2026 - Jul. 2026
+
+<details>
+<summary><b>Details</b></summary>
+
+<br/>
+
+- Selected for an intensive AI/SW industry-academia fellowship in Singapore, developing an autonomous robot agent with Menlo Research (detailed under Projects).
+- Studied real-world AI and physical-AI deployment across global tech leaders (AWS, Grab), mobility and robotics players (HMGICS, Autonomous A2Z, QuikBot), and a VLM startup (PIA Space), and joined seminars on networked physical AI at NUS and SUTD.
+
+</details>
+
+### DC&M (Official Academic Club of Computer Engineering)
+
+Hansung University, Seoul  
+Executive Board Member | Aug. 2024 - Present
+
+<details>
+<summary><b>Details</b></summary>
+
+<br/>
+
+- Led technical study groups and mentored contest/hackathon teams, and coordinated university-wide SW festivals and academic expos.
+
+</details>
+
+---
+
+## 🔎 Research Interests
+
+- Agentic RAG systems
+- LLM-based multi-agent orchestration
+- GraphRAG and multi-hop reasoning over knowledge graphs
+
+---
+
+## 🛠️ Skills
+
+**Languages**  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![C++](https://img.shields.io/badge/C/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-**Database**  
+**LLM & Agent Systems**  
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-4A90E2?style=flat-square&logo=protocol&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![RAG](https://img.shields.io/badge/VectorRAG_·_GraphRAG-3151b9?style=flat-square)
+![HITL](https://img.shields.io/badge/Human--in--the--Loop-3151b9?style=flat-square)
+
+**ML / DL**  
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![Multimodal](https://img.shields.io/badge/Multimodal_LLM-3151b9?style=flat-square)
+
+**Databases**  
 ![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat-square&logo=databricks&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL_·_pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
@@ -184,14 +284,13 @@ Korea Information Processing Society (ACK) 2025, vol. 32, no. 2 | Nov. 2025
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Spring](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
 
-[![Email](https://img.shields.io/badge/📧_hklove1212@naver.com-03C75A?style=for-the-badge&logo=naver&logoColor=white)](mailto:hklove1212@naver.com)
-[![GitHub](https://img.shields.io/badge/@yourusername-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
-
-**✨ Thanks for visiting! ✨**
-
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer&animation=twinkling)
+<div align="center">
+<sub>Thanks for visiting.</sub>
+</div>
