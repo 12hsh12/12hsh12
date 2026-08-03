@@ -50,8 +50,8 @@ Undergraduate Research Assistant | *Advisor: Prof. Mi-Hwa Song* | Dec. 2025 - Pr
 **"A GraphRAG System for Automated Construction of Corporate Relationship Knowledge Graphs and Risk Reasoning"**
 
 **Sunghwan Hong**, Mi-Hwa Song\* (First Author)  
-Proceedings of the Korea Computer Congress 2026 (KCC 2026), 2026, pp. 1892-1894.
-
+Proceedings of the Korea Computer Congress 2026 (KCC 2026), 2026, pp. 1892-1894.  
+[📂 GitHub Repository](https://github.com/12hsh12/KCC2026-CorpGraphRAG)
 <details>
 <summary><b>Details</b></summary>
 
@@ -62,7 +62,7 @@ Proceedings of the Korea Computer Congress 2026 (KCC 2026), 2026, pp. 1892-1894.
 - Proposed **Cross-Hop Reachability**, a novel metric quantifying multi-hop retrieval integrity that standard RAG metrics fail to capture.
 
 </details>
-
+    
 **"Short-form Transformation and Interactive Learning Platform for AI-Based University Lectures for Generation Z"**
 
 Geonu Kim, **Sung-Hwan Hong**, Seok-Woo Lee, Han-Jun Lee, Da-Won Yang, In-Kwon Kim\*  
@@ -265,8 +265,9 @@ Executive Board Member | Aug. 2024 - Present
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-4A90E2?style=flat-square&logo=protocol&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![RAG](https://img.shields.io/badge/VectorRAG_·_GraphRAG-3151b9?style=flat-square)
-![HITL](https://img.shields.io/badge/Human--in--the--Loop-3151b9?style=flat-square)
+![RAG](https://img.shields.io/badge/VectorRAG-3151b9?style=flat-square)
+![RAG](https://img.shields.io/badge/GraphRAG-3151b9?style=flat-square)
+![RAG](https://img.shields.io/badge/AgenticRAG-3151b9?style=flat-square)
 
 **ML / DL**  
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
