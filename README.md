@@ -243,7 +243,7 @@ Executive Board Member | Aug. 2024 - Present
 
 ---
 
-## 🔎 Research Interests
+## 🔎 TECHNICAL FOCUS
 
 - Agentic RAG systems
 - LLM-based multi-agent orchestration
